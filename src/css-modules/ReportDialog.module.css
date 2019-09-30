@@ -1,0 +1,36 @@
+.graphic{
+    display: inline;
+}
+
+.dialogTitle{
+    display: block;
+    color: #000;
+    padding: 19px 0px 2px 0px;
+    font-weight: bold;
+    font-family: Vazir;
+    direction: rtl;
+}
+
+
+@media (min-width: 770px) {
+    .dialog{
+        margin: 15px;
+        text-align: right;
+        width: 550px;
+        box-shadow: 0 0 0 1px rgba(0,0,0,0.05), 0 1px 3px 0 rgba(0,0,0,0.15);
+        margin-left: auto;
+    }
+}
+
+@media (max-width: 770px) {
+    .dialog{
+        margin: 15px;
+        text-align: right;
+        box-shadow: 0px 0px 1px #888888;
+        width: 100%;
+        border-color: #fff9fb;
+        border-style: solid;
+        border-width: 1px;
+        margin-left: auto;
+    }
+}

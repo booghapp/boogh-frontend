@@ -1,0 +1,27 @@
+.sharingInfo {
+    background-color: #FFFFFF;
+    position: absolute;
+    right: -10px;
+    bottom: 60px;
+    box-shadow: 0 0 6px 2px #ccc;
+}
+
+.sharingInfoItem {
+    display: block;
+    font-family: Vazir;
+    font-size: 16px;
+    color: #212B36;
+    margin: 15px;
+    padding: 0px;
+    composes: borderNone from "./General.module.css";
+}
+
+.sharingInfoItem:focus{
+    background-color: #ffeccc;
+    border: none !important;
+    outline: none;
+}
+
+.sharingInfoItemImg{
+    margin-left: 5px;
+}

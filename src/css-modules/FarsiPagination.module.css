@@ -1,0 +1,15 @@
+
+.paginationElement {
+    display: inline-block;
+    padding: 4px 8px;
+    font-family: Vazir;
+    color: #83817c;
+    text-decoration: none !important;
+    outline: none;
+}
+
+.pageNumberActive {
+    composes: paginationElement;
+    font-weight: bold;
+    color: black !important;
+}

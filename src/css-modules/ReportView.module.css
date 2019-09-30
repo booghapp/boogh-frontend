@@ -1,0 +1,102 @@
+.updateButton {
+    composes: buttonGrey from './General.module.css';
+    display: inline-block;
+}
+
+@media (min-width: 1024px) {
+    .reportTitle {
+        text-align:right;
+        font-size:26px;
+        font-weight:bold;
+        padding-top: 50px;
+    }
+
+    .photobar{
+        margin-right: auto;
+        margin-left: auto;
+        display: table;
+        background-color: rgba(0,0,0,0.5);
+        border-radius: 8px;
+    }
+
+    .reportViewCover {
+        display: none;
+    }
+
+    .updateButton {
+        width: 226px;
+    }
+
+    .titleAndOptionsContainer {
+
+    }
+
+    .reportViewRow {
+        position: relative;
+        margin: 10px 0px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .reportTitle {
+    }
+
+    .reportViewDialog {
+        margin: 15px;
+        text-align: right;
+        box-shadow: 0px 0px 1px #888888;
+        width: 100%;
+        border-color: #fff9fb;
+        border-style: solid;
+        border-width: 1px;
+        margin-left: auto;
+    }
+
+    .reportViewImgVisibility{
+        display: none;
+    }
+
+    .reportViewCover {
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+        height: 130px
+    }
+
+    .photobar {
+        margin-right: auto;
+        margin-left: auto;
+        position: absolute;
+        display: table;
+        background-color: rgba(0,0,0,0.5);
+        border-radius: 8px;
+        bottom: 0px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .updateButton {
+        width: 100%;
+    }
+
+    .titleAndOptionsContainer {
+        margin: 20px 5px 5px 5px;
+    }
+
+    .reportViewRow {
+        position: relative;
+        margin: 0px;
+    }
+}
+
+.flipArrow{
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.modalArrow{
+    height:40px;
+    width:40px;
+}

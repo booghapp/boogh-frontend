@@ -1,0 +1,39 @@
+@media (min-width: 600px) {
+    .profileNavbar {
+        width: 80%;
+        height: 60px;
+        padding-top: 8px;
+        margin: auto;
+    }
+    .navItemDefault {
+        color: #83817C;
+        font-size: 15px;
+        width: 33%;
+    }
+    .itemHighlighted {
+        width: 70%;
+        border-bottom: 2px solid #FECA2D;
+        margin: 0px auto;
+    }
+}
+
+@media (max-width: 600px) {
+    .profileNavbar {
+        margin: auto;
+        width: 100%;
+        height: 60px;
+        padding-top: 5px;
+
+    }
+    .navItemDefault {
+        color: #83817C;
+        font-size: 12px;
+        padding: 0px;
+        width: 33%;
+    }
+    .itemHighlighted {
+        border-bottom: 2px solid #FECA2D;
+        width: 85%;
+        margin: 0px auto;
+    }
+}

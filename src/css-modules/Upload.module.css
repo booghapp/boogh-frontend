@@ -1,0 +1,82 @@
+@media (min-width: 600px) {
+    .uploadDropzone{
+        min-height:268px;
+        border-radius:8px;
+        width: 100%;
+        background-color:#F6F4EF;
+        margin-top:10px;
+        box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1);
+        border: 1px dashed #737373
+    }
+
+    .uploadDropzoneContainer{
+        padding-top: 25px;
+        text-align: center;
+    }
+
+    .uploadDropzoneButton{
+        width: 155px;
+        display: inline-block;
+    }
+
+    .dropZoneButtonImg {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .uploadDropzoneContainer{
+        padding-top: 25px;
+        text-align: center;
+    }
+
+    .uploadDropzoneButton{
+        composes: buttonGrey from './General.module.css';
+        display: inline-block;
+    }
+
+    .dropZoneImgVisibility {
+        display: none;
+    }
+
+    .dropZoneButtonImg {
+        width: 32px;
+        height: 32px;
+        margin-right: 15px;
+    }
+}
+
+.uploadTextLight{
+    color:#83817C;
+    font-size:18px;
+    display: inline;
+}
+
+.uploadText{
+    color: #858179;
+    font-weight: lighter;
+    font-family: Vazir;
+    font-size: 14px;
+    padding: 0px 10px;
+}
+
+.uploadImgContainer{
+    background-color: #F6F4EF;
+    min-height: 143px;
+}
+
+.uploadImg{
+    height: 77px;
+    width: 96px;
+}
+
+.photoPreviewCloseButton {
+    composes: borderNone from './General.module.css';
+    color: white;
+    font-weight: lighter;
+    font-size: 20px;
+    top:0px;
+    left:0px;
+    position: absolute;
+    margin:5px;
+}

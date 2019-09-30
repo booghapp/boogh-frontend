@@ -1,0 +1,265 @@
+@media (min-width: 1024px) {
+    .navbar {
+        margin: 0px auto 0px auto;
+        height: 80px;
+        background-color: white;
+        max-width: 1024px;
+        border: 0px;
+    }
+
+    .navBrand {
+        float:right;
+    }
+
+    .navBrandImg {
+        height:40px;
+        width:104px;
+        padding:0px;
+        margin: 22px 50px 0px 30px !important;
+    }
+
+    .navbarButton {
+        composes: buttonGrey from './General.module.css';
+        width: 96px;
+        height: 40px;
+        line-height: 38px;
+        margin-top: 10px;
+    }
+
+    .navBarLogoutButton {
+        composes: navbarButton;
+        font-size: 12px;
+        padding: 0px 5px;
+        width: auto;
+    }
+
+    .navbarItem {
+        font-family: Vazir;
+        font-size: 17px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.33;
+        letter-spacing: normal;
+        text-align: right;
+        color: #362f21;
+        margin-right:20px;
+        margin-top: 20px;
+    }
+
+    .navbarItemIcon {
+        height:24px;
+        width: 24px;
+        margin-left: 5px;
+    }
+
+    .navbarCommonItems {
+        float: right;
+    }
+}
+
+@media (min-width:770px) and (max-width: 1024px) {
+    .navbar {
+        margin: 0px auto 0px auto;
+        height:80px;
+        background-color: white;
+        max-width:1024px;
+        border: 0px;
+        z-index: 9999;
+        position: relative;
+    }
+    .navBrand {
+        float:right;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    .navBrandImg {
+        height:40px;
+        width:104px;
+        padding:0px;
+        margin-top: 22px;
+        margin-left: 0px !important;
+    }
+
+    .navbarButton {
+        background-color: #FBFBFB;
+        border-radius: 7px;
+        width: 96px;
+        height: 40px;
+        object-fit: contain;
+        font-family: Vazir;
+        font-size: 16px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: center;
+        color: #362f21;
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+
+    .navBarLogoutButton {
+        composes: navbarButton;
+        font-size: 12px;
+        padding: 0px 5px;
+        width: auto;
+    }
+
+    .navbarItem {
+        font-family: Vazir;
+        font-size: 17px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.33;
+        letter-spacing: normal;
+        text-align: right;
+        color: #362f21;
+        margin-right:20px;
+        margin-top: 20px;
+    }
+
+    .navbarItemIcon {
+        height:24px;
+        width: 24px;
+        margin-left: 5px;
+    }
+
+    .navbarCommonItems {
+        float: right;
+    }
+}
+
+@media (max-width: 770px) {
+    .navbar {
+        margin: 0px auto 0px auto;
+        height:80px;
+        background-color: white;
+        max-width:1024px;
+        border: 0px;
+        z-index: 9999;
+        position: relative;
+    }
+
+    .navToggle {
+        margin-top:20px;
+        margin-right: 0px;
+        border: none;
+    }
+
+    .navbarDisplay {
+        display: none;
+    }
+
+    .navBrandImg {
+        height:40px;
+        width:104px;
+        padding:0px;
+        margin: 22px 50px 0px 30px !important;
+    }
+
+
+    .navbarCollapseBackground {
+        background-color: dimgray;
+        opacity: 0.6;
+        height: 100vh;
+        width: 100vw;
+        position: absolute;
+        top:0px;
+        left: 0px;
+    }
+
+    .navbarCollapse {
+        background-color: white;
+        position: absolute;
+        height: 100vh !important;
+        width: 70%;
+        top: 0px;
+        right: 0px;
+        text-align: right;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .collapsedBooghLogoContainer {
+        width: 100%;
+        text-align: center;
+    }
+
+    .collapsedBooghLogo {
+        width: 55%;
+        padding-top: 60%;
+        padding-bottom: 30%;
+    }
+
+    .navGroupStyle {
+        margin: 0px;
+    }
+
+    .navbarButton {
+        background-color: #FBFBFB;
+        border-radius: 7px;
+        width: 96px;
+        height: 40px;
+        object-fit: contain;
+        font-family: Vazir;
+        font-size: 16px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: center;
+        color: #362f21;
+        margin-right: 10px;
+        margin-left: auto;
+    }
+
+    .navBarLogoutButton {
+        composes: navbarButton;
+        font-size: 12px;
+        padding: 0px 5px;
+        width: auto;
+    }
+
+    .navbarItem {
+        font-family: Vazir;
+        font-size: 18px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.33;
+        letter-spacing: normal;
+        text-align: right;
+        color: #362f21;
+        margin-right:20px;
+        margin-top: 20px;
+    }
+
+    .navbarItemIcon {
+        height:24px;
+        width: 24px;
+        margin-left: 10px;
+    }
+
+    .navbarCommonItems {
+        margin: 0px;
+    }
+}
+
+.navbarHr {
+    margin: 0px 6px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.02);
+}
+
+.subNavbarHr {
+    margin: 0px 6px;
+}
+
+.nav {
+    color: white;
+}

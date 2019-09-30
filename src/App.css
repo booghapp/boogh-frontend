@@ -1,0 +1,160 @@
+.modal-transparent {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    top: 10%;
+    text-align:center;
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+}
+
+.modal-options > .modal-content {
+    box-shadow: none;
+    border: none;
+    font-size: 18px !important;
+    margin: 20px;
+}
+
+.modal-options > .modal-content >.modal-header {
+    width: 100%;
+}
+
+.modal-transparent > .modal-content {
+    background-color: transparent;
+    box-shadow: none;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+}
+
+.modal-header{
+    border-bottom:0px !important;
+}
+
+.modal-header .close {
+    float: left;
+    color: white;
+    opacity: 1 !important;
+    font-size: 40px;
+}
+
+.collapsing {
+    -webkit-transition: none;
+    transition: none;
+}
+
+@media (min-width: 1024px) {
+    html, body {
+        font-size: 16px;
+        height: 100%;
+    }
+
+    .navbar-nav>li {
+        display: inline-block;
+    }
+    .navbar-nav {
+        display: inline-block;
+    }
+
+    .modal-options {
+        top: 25%;
+        text-align:center;
+        box-shadow: none;
+        border: none;
+        width: 400px;
+        margin: 0px auto;
+    }
+    .container{
+        text-align: center;
+        max-width:1024px;
+    }
+
+}
+
+@media (min-width: 770px) and (max-width: 1024px) {
+    .container{
+        margin: 0px !important;
+        width: 100%;
+    }
+}
+
+@media (max-width: 770px) {
+    html{
+        font-size: 16px;
+        overflow: hidden;
+        width:100%;
+    }
+
+    body{
+        font-size: 16px;
+        height:100%;
+        width: 100%;
+        position:fixed; /* prevent overscroll bounce*/
+        overflow-y:scroll;
+        overflow-x:hidden;
+        -webkit-overflow-scrolling: touch; /* iOS velocity scrolling */
+    }
+
+    .navbar-nav>li {
+        display: inline-block;
+    }
+
+    .navbar-collapse > .navbar-nav >li {
+        display: block;
+    }
+
+    .navbar-nav>li>a {
+        padding: 10px 3px 0px 3px;
+    }
+
+    .navbar-nav {
+        display: block;
+    }
+
+    .modal-options {
+        top: 25%;
+        text-align:center;
+        box-shadow: none;
+        border: none;
+        width: 100vw;
+        margin: 0px !important;
+    }
+    .container{
+        text-align: center;
+        max-width:1024px;
+    }
+
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Source Sans Pro'), local('SourceSansPro-Regular'), url(assets/fonts/SourceSansPro-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto'), local('Roboto-Regular'), url(assets/fonts/Roboto-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Vazir';
+    src: local('Vazir'), local('Vazir'),
+        url(assets/fonts/Vazir.ttf) format('truetype'),
+        url(assets/fonts/Vazir.eot) format('embedded-opentype'),
+        url(assets/fonts/Vazir.woff) format('woff'),
+        url(assets/fonts/Vazir.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'Vazir';
+    src: local('Vazir'), local('Vazir-Medium'),
+        url(assets/fonts/Vazir-Medium.ttf) format('truetype'),
+        url(assets/fonts/Vazir-Medium.eot) format('embedded-opentype'),
+        url(assets/fonts/Vazir-Medium.woff) format('woff'),
+        url(assets/fonts/Vazir-Medium.woff2) format('woff2');;
+}

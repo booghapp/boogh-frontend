@@ -1,0 +1,3 @@
+.sendResetInstructionsButton {
+    composes: buttonYellow from './General.module.css';
+}

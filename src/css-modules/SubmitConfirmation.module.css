@@ -1,0 +1,8 @@
+.viewPendingIssueButton {
+    composes: button from './Confirmation.module.css';
+    composes: buttonYellow from './General.module.css';
+}
+.submitNewIssueButton {
+    composes: button from './Confirmation.module.css';
+    composes: buttonGrey from './General.module.css';
+}

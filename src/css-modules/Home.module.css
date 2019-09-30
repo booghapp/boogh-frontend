@@ -1,0 +1,125 @@
+.homeButtonsContainer {
+    display: flex;
+    margin-top: 30px;
+}
+
+.homeButton {
+    flex-direction: row;
+    width: 50%;
+}
+.submitButton {
+    composes: homeButton;
+    composes: buttonGrey from './General.module.css';
+    margin-right: 20px;
+    text-align: center;
+}
+.viewButton {
+    composes: homeButton;
+    composes: buttonYellow from './General.module.css';
+    text-align: center;
+}
+
+@media (min-width: 1024px) {
+    .homeHr {
+        visibility: collapse;
+    }
+
+    .homeRow {
+        margin: 50px 5px 40px 5px;
+    }
+
+    .homeCol {
+        padding-right: 0px;
+    }
+
+    .homeInfo {
+        height: 350px;
+        text-align: right;
+        padding-right: 10px;
+        padding-top: 20px;
+    }
+
+    .homeHeader {
+        font-family: Vazir-Medium;
+        font-size: 38px;
+        font-weight: bold;
+    }
+
+    .homeText {
+        color: #858179;
+        font-size: 16px;
+        font-family: Vazir;
+        direction: rtl;
+        line-height: 27px;
+    }
+
+    .homeImg {
+        height: 116px;
+        width: 116px;
+    }
+
+    .homeImgTitle {
+        font-size: 20px;
+        font-weight: bold;
+        font-family: Vazir;
+        direction: rtl;
+    }
+
+    .infoTitle {
+        font-size: 26px;
+        font-weight: bold;
+        margin-top: 40px;
+        font-family: Vazir-Medium;
+    }
+}
+
+@media (max-width: 1024px) {
+    .homeHr {
+        visibility: visible;
+        margin: 0px 15px;
+    }
+
+    .homeRow {
+        padding-top: 15px;
+        margin-bottom: 30px;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+    .homeInfo {
+        text-align: center;
+        padding-top: 20px;
+        font-family: Vazir-Medium;
+    }
+
+    .homeHeader {
+        font-size: 38px;
+        font-weight: bold;
+    }
+
+    .homeText {
+        color: #858179;
+        font-size: 16px;
+        font-family: Vazir;
+        direction: rtl;
+    }
+
+    .homeImg {
+        height: 116px;
+        width: 116px;
+    }
+
+    .homeImgTitle {
+        font-size: 20px;
+        font-weight: bold;
+        font-family: Vazir;
+        direction: rtl;
+    }
+
+    .infoTitle {
+        font-size: 26px;
+        font-weight: bold;
+        margin-top: 40px;
+        font-family: Vazir-Medium;
+    }
+}

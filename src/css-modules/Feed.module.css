@@ -1,0 +1,50 @@
+@media (min-width: 1024px) {
+    .sideSection{
+        float: left;
+        margin: 20px;
+        margin-left: 100px;
+    }
+
+    .feedReport{
+        margin-right: 100px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .sideSection{
+        display: none;
+    }
+
+    .feedReport {
+        margin: 0px 10px;
+    }
+}
+
+.reactPaginationLi{
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.reactPaginationLi > a{
+    color: #83817c;
+    text-decoration: none;
+    outline: none;
+}
+
+
+.reactPaginationContainer {
+
+
+    margin: 40px auto 40px auto;
+}
+
+.reactPaginationContainer > ul {
+    padding: 0px;
+}
+
+.activeClassName {
+    color: black !important;
+    text-decoration: none;
+    outline: none;
+}

@@ -1,0 +1,11 @@
+.updateReportText{
+    font-size:16px;
+    padding-right:10px;
+}
+
+.updateReportButton {
+    composes: buttonYellow from './General.module.css';
+    display: inline-block;
+    width: 228px;
+    text-align: center;
+}

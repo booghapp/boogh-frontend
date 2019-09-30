@@ -1,0 +1,35 @@
+.arrow {
+    width: 10px;
+    height: 10px;
+    border: solid grey;
+    border-radius: 2px;
+    padding: 3px;
+}
+
+.upArrow {
+    composes: arrow;
+    transform: rotate(225deg);
+}
+
+.downArrow {
+    composes: arrow;
+    transform: rotate(45deg);
+}
+
+.active {
+    border: solid #EBA704;
+    border-width: 0 3px 3px 0;
+}
+
+.inActive {
+    border: solid #878581;
+    border-width: 0 3px 3px 0;
+}
+
+.container {
+    width: 30px;
+    line-height: 15px;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 5px;
+}

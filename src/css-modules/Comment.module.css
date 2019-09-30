@@ -1,0 +1,51 @@
+.commenter {
+    composes: booghText from './General.module.css';
+    font-weight: bold;
+}
+
+.content {
+    composes: booghText from './General.module.css';
+    font-size: 16px;
+    direction: rtl;
+}
+
+.container {
+    display: inline-block;
+    max-width: 80%;
+}
+
+.voteContainer {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.date {
+    composes: booghText from './General.module.css';
+    display: inline;
+    color: #83817C;
+    font-size: 14px;
+}
+
+.reply {
+    composes: booghText from './General.module.css';
+    composes: borderNone from './General.module.css';
+    display: inline;
+    color: #83817C;
+    font-size: 14px;
+
+}
+@media(min-width: 600px) {
+    .button {
+        composes: buttonGrey from './General.module.css';
+        width: 226px;
+        margin-top: 15px;
+        margin-left: auto;
+    }
+}
+@media(max-width: 600px) {
+    .button {
+        composes: buttonGrey from './General.module.css';
+        margin-top: 15px;
+        margin-left: auto;
+    }
+}

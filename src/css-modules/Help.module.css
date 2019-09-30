@@ -1,0 +1,56 @@
+.helpButton {
+    composes: buttonGrey from './General.module.css';
+    display: inline-block;
+}
+
+@media (min-width: 600px) {
+    .helpButton {
+        width:195px;
+    }
+}
+
+@media (max-width: 600px) {
+    .helpButton {
+        width: 100%;
+    }
+}
+
+.helpArrowDown {
+    float:left;
+    width: 0;
+    height: 0;
+    margin-top:10px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid black;
+    float: left;
+}
+
+.helpArrowUp {
+    float:left;
+    width: 0;
+    height: 0;
+    margin-top:10px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid black;
+    float: left;
+}
+
+.helpQuestion {
+    color: #83817C;
+    font-size:18px;
+    font-weight: lighter;
+    font-family: Vazir;
+    width: 100%;
+    text-align: right;
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+
+.helpAnswer {
+    margin:20px;
+    font-size:16px;
+    font-family: Vazir;
+}

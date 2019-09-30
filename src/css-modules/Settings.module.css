@@ -1,0 +1,98 @@
+.settingsButton {
+    composes: buttonGrey from './General.module.css';
+    display: inline;
+    width: 160px;
+    margin-top: 10px;
+}
+
+@media (min-width: 770px) {
+    .settingsButton {
+        float: left;
+    }
+
+    .toggleButtonGroup {
+        float: left;
+    }
+
+    .settingsInput {
+        height:56px;
+        width:364px;
+        border-radius:7px;
+    }
+}
+
+@media (max-width: 770px) {
+    .settingsButton {
+        float: right;
+    }
+
+    .toggleButtonGroup {
+        float: right;
+    }
+
+    .settingsInput {
+        height:56px;
+        width: 100%;
+        border-radius:7px;
+    }
+}
+
+.settingsCol {
+    padding: 0px !important;
+}
+
+.settingsRow {
+    margin: 0px 0px 20px 0px !important;
+}
+
+.settingsText {
+    color: #212B36;
+    font-family: Vazir;
+    font-size: 16px;
+    text-align: right;
+}
+
+.settingsButtonText {
+    color: #212B36;
+    font-family: Vazir;
+    font-size: 16px;
+}
+
+.toggle{
+    borderColor: #DCDBD6;
+    display:inline;
+    width:80px;
+    height:50px;
+    padding:15px;
+    border-top-left-radius:7px;
+    border-bottom-left-radius:7px;
+    background-color:#FBFBFB
+}
+
+.toggleBackground{
+    border-radius:7px;
+    background-color: #FBFBFB;
+}
+
+.settingsNotifyTitle {
+    color: #212B36;
+    font-family: Vazir;
+    font-size: 22px;
+}
+
+.settingsNotifyText {
+    margin-top:10px;
+    display:block;
+    color: #212B36;
+    font-family: Vazir;
+    font-size: 16px
+}
+
+.toggleBackground{
+    border-radius:7px;
+    background-color: #FBFBFB;
+}
+
+.active{
+    background-color: #FDCB40 !important;
+}

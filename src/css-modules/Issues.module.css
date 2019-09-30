@@ -1,0 +1,30 @@
+@media (min-width: 600px) {
+    .issuesNavbar {
+        width: 35%;
+        margin: auto;
+    }
+
+    .navItemStyle {
+        font-family: Vazir;
+        font-weight: lighter;
+        font-size: 15px;
+        width: 33%;
+    }
+}
+
+@media (max-width:600px) {
+    .issuesNavbar {
+        margin-right: auto;
+        margin-left: auto;
+        width: 90%;
+    }
+
+    .navItemStyle {
+        font-family: Vazir;
+        font-weight: lighter;
+        font-size: 14px;
+        width: 33%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}

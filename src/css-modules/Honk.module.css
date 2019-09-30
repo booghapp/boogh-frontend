@@ -1,0 +1,38 @@
+@media (min-width: 600px) {
+    .honk {
+        border-radius: 50%;
+        border: 1px solid rgba(0,0,0,0.2);
+        box-shadow: 0 0 5px 1px rgba(63,63,68,0.15);
+        margin: 7px 10px;
+        padding: 3px;
+    }
+
+    .honkInactive {
+        composes: honk;
+        background-color: #fff;
+    }
+
+    .honkActive {
+        composes: honk;
+        background-color: #FECA2D;
+    }
+}
+
+@media (max-width: 600px) {
+    .honk {
+        border-radius: 50%;
+        border: 1px solid rgba(0,0,0,0.2);
+        box-shadow: 0 0 5px 1px rgba(63,63,68,0.15);
+        margin: 5px 5px 0px 0px;
+        padding: 0px;
+    }
+    .honkInactive {
+        composes: honk;
+        background-color: #fff;
+    }
+
+    .honkActive {
+        composes: honk;
+        background-color: #FECA2D;
+    }
+}

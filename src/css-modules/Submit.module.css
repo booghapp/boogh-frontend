@@ -1,0 +1,21 @@
+.submitCheckboxText {
+    padding-right:15px;
+    font-family: Vazir;
+    font-size: 14px
+}
+
+.submitButton{
+    composes: buttonYellow from './General.module.css';
+    display: inline-block;
+    width: 195px;
+}
+
+.submitButtonText {
+    font-family: Vazir;
+    font-size: 16px
+}
+
+.submitMarkerImg {
+    height: 32px;
+    width: 32px;
+}

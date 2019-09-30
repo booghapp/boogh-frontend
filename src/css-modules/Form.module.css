@@ -1,0 +1,187 @@
+@media (min-width: 770px) {
+    .form{
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px; /* future proofing */
+        -khtml-border-radius: 10px;
+        box-shadow: 0 0 0 1px rgba(0,0,0,0.05), 0 1px 3px 0 rgba(0,0,0,0.15);
+
+        width: 472px;
+        min-height: 694px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color:#fff;
+        margin-bottom: 20px;
+    }
+
+    .formBackground{
+        background-color:#F6F4EF;
+        min-height: 100vh;
+
+        padding: 80px 0px;
+    }
+
+    .formContent {
+        padding: 40px 80px
+    }
+
+    .closeButton {
+        display: none;
+    }
+
+    .formContainer {
+        margin-top: 80px;
+        margin-bottom: 80px;
+        padding: 0px 6px 0px 6px;
+    }
+
+}
+
+@media (max-width: 770px) {
+    .formContainer {
+        height: 100%;
+    }
+
+    .form{
+        border-width: 2px;
+        width: 100%;
+        min-height: 694px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color:#fff;
+    }
+
+    .formContent {
+        padding: 40px 40px
+    }
+
+    .closeButton {
+        composes: borderNone from './General.module.css';
+        color: lightgray;
+        text-align: left;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .closeButtonImg {
+        width: 14px;
+        height: 14px;
+    }
+}
+
+.formTitle {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom:40px;
+    text-align: center;
+}
+
+.formInput {
+    direction: rtl;
+    border: 1px solid rgba(0,0,0,0.35);
+    border-radius: 8px;
+    height: 52px;
+    width: 100%;
+    resize: none;
+    font-family: Vazir;
+    padding: 0px 10px 0px;
+}
+
+.formInputError {
+    border: 1px solid #E05757 !important;
+    background-color: #FDF6F6;
+}
+
+.formInputErrorText {
+    color: #B74E3B;
+    font-family: Vazir;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: right;
+}
+
+.formCheckboxLabel {
+    font-size: 15px;
+    padding-right:22px;
+}
+
+.formButton {
+    width:100%;
+    border: 1px solid #EBA704;
+    background-color: #FECA2D;
+}
+
+.formPadding{
+    padding-top: 10px;
+}
+
+.formTextUnderline {
+    color: #ECAC12;
+    text-decoration: underline;
+    display: inline;
+}
+
+.formTextFaint {
+    font-size: 13px;
+    text-align: right;
+    color: #858179;
+    padding: 6px 0px 0px;
+}
+
+.divider{
+    width: 100%;
+    height: 10px;
+    border-bottom: 1px solid #C4CDD5;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.dividerText{
+    font-size: 14px;
+    color: #83817C;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #fff;
+    font-family: Vazir;
+}
+
+.loginLabel{
+    float: right;
+    font-size: 16px;
+    padding: 0px 0px 6px;
+}
+
+.formConfirmation {
+    position: relative;
+    height: 54px;
+    border: 1px solid #FECA2F;
+    border-radius: 3px;
+    background-color: #FFF8E1;
+    margin: 10px 0px;
+}
+
+.formConfirmationText {
+    width: 100%;
+    font-family: Vazir;
+    font-size: 16px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.formError {
+    position: relative;
+    height: 54px;
+    border: 1px solid #E05757;
+    background-color: #FDF6F6;
+    border-radius: 3px;
+    margin: 10px 0px;
+}
+
+.fieldLabel {
+    font-size: 16px;
+    padding: 0px 0px 6px;
+}
